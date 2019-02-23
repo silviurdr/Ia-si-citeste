@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Ia si citeste prin Brasov!</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- HEADER SECTION -->
+
+      <div class="header-container">
+        <div class="header">
+          <div class="logo-container">
+            <a href="index.html"><img class="logo" src="images/logou17.jpg"></a>
+          </div>
+          <div class ="navigation">
+  	        <ul class="navigation-menu">
+  	          <li class="navigation-links"><a class="nav" href="index.html">Books</a></li>
+  		        <li class="navigation-links"><a class="nav" href="reviews.html">Reviews</a></li>
+  		        <li class="navigation-links"><a class="nav" href="todos.html">To-Dos</a></li>
+  		        <li class="navigation-links"><a class="nav current" href="places.html">Places</a></li>
+  		        <li class="navigation-links"><a class="nav" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="card-container">
+  		      <div class="card">
+              <div class="card-front">
+                <h1>?</h1>
+              </div>
+              <div class="card-back">
+                <a id="review" onmouseout="choseBook()" href="https://www.goodreads.com/book/show/17125.One_Day_in_the_Life_of_Ivan_Denisovich?ac=1&from_search=true" target="_blank"><img id="book-to-slide" src="images/IvanDen.jpg"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MAIN CONTENT SECTION -->
+
+      <div class="main">
+
+        <div class="places-page-image-container">
+        </div>
+        <div class="separator-line"></div>
+        <div class="places-page-content">
+          <h2 class="book-places-map-title">Books-friendly places in Brasov</h2>
+          <div id="map"></div>
+        </div>
+
+      </div>
+
+      <!-- FOOTER SECTION -->
+
+      <div class="footer">
+        <div class="credits-container">
+          <p>Cover image credit: Hitoshi Suzuki/Unsplash</p>
+          Icons made by <a class="credits-link" href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a class="credits-link" href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a class="credits-link" href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        </div>
+        <div class="useful-links-container">
+          <div class="footer-links-1-container">
+            <h3>Spre oriunde</h3>
+            <ul class="footer-links-1">
+              <li class="useful-links"><a class="footer-links" href="#">Unde se duc cartile </a></li>
+              <li class="useful-links"><a class="footer-links" href="#">Carti si Harti</a></li>
+              <li class="useful-links"><a class="footer-links" href="#">Cine citeste </a></li>
+              <li class="useful-links"><a class="footer-links" href="#">Iepuri cititori</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-2-container">
+            <h3>Cu de toate</h3>
+            <ul class="footer-links-2">
+              <li class="useful-links"><a class="footer-links" href="#">Trei carti intra intr-un bar</a></li>
+              <li class="useful-links"><a class="footer-links" href="#">Merge cartea</a></li>
+              <li class="useful-links"><a class="footer-links" href="#">Carti si oameni si soareci</a></li>
+              <li class="useful-links"><a class="footer-links" href="#">Avem carti</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="field-label">
+          <p class="label">&copy;2019 Ia și citește.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7N06qvoU0Y5jfWnmSAoP0gA8b5WhImDg&callback=initMap"
+    async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery.lettering.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

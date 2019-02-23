@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Ia si scrie-mi</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- HEADER SECTION -->
+
+      <div class="header-container">
+        <div class="header">
+          <div class="logo-container">
+            <a href="index.html"><img class="logo" src="images/logou17.jpg"></a>
+          </div>
+          <div class ="navigation">
+  	        <ul class="navigation-menu">
+  	          <li class="navigation-links"><a class="nav" href="index.html">Books</a></li>
+  		        <li class="navigation-links"><a class="nav" href="reviews.html">Reviews</a></li>
+  		        <li class="navigation-links"><a class="nav" href="todos.html">To-Dos</a></li>
+  		        <li class="navigation-links"><a class="nav" href="places.html">Places</a></li>
+  		        <li class="navigation-links"><a class="nav current" href="about.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="card-container">
+  		      <div class="card">
+              <div class="card-front">
+                <h1>?</h1>
+              </div>
+              <div class="card-back">
+                <a id="review" onmouseout="choseBook()" href="https://www.goodreads.com/book/show/17125.One_Day_in_the_Life_of_Ivan_Denisovich?ac=1&from_search=true" target="_blank"><img id="book-to-slide" src="images/IvanDen.jpg"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MAIN CONTENT SECTION -->
+
+      <div class="main">
+
+        <div class="contact-page-image-container">
+        </div>
+        <div class="separator-line"></div>
+        <h1 class="contact-page-header">Contact Me</h1>
+
+        <!-- LETTER CONTACT SECTION -->
+
+        <div class="old-fashioned-contact">
+          <span class="contact-letter">Handwriting is not Dead? Then send a letter to:</span>
+          <span class="contact-address">Catrina Silviu <br /> Nicolae Balcescu 323  <br />B-1290 Brasov <br /> Romania</span>
+        </div>
+
+        <!-- FORM CONTACT SECTION -->
+
+        <form id="frm" name="form1" class="contact-form">
+          <fieldset class="form-content">
+            <legend>
+              Handwriting is Dead?
+            </legend>
+              <input type="text" id="form-name" name="name" size="25" maxlength="100" placeholder="Name">
+            <br />
+              <input type="email" id="form-email" name="email" size="25" maxlength="100" placeholder="Email">
+            <br />
+              <input type="text" id="form-phone" name="phone" onkeyup="digitsOnly(this)" size="25" maxlength="100" placeholder="Phone number">
+              <br />
+            <label class="find-about">
+              How did you hear about this website?
+            </label>
+            <select name="referrer" id="answers" class="find-about-options">
+              <option value="Select answer">Select answer</option>
+              <option value="Awwwards">Awwwards</option>
+              <option value="Interview">Job interview</option>
+              <option value="Book">The Winds of Winter</option>
+              <option value="Vision">A vision</option>
+              <option value="Inventor">Brendan Eich brought me here</option>
+            </select>
+            <p class="how-many-books">How many books did you read last year?</p>
+            <div class="how-many-books-answers">
+              <label class="find-about">
+                <input type="radio" name="answer" value="none">
+                0
+              </label>
+              <label class="find-about">
+                <input id="radio-answer-few" class="number-of-books" type="radio" name="answer" value="few">
+                1 - 5
+              </label>
+              <label class="find-about" >
+                <input id="radio-answer-more" class="number-of-books" type="radio" name="answer" value="more">
+                6 - 10
+              </label>
+              <label class="find-about" >
+                <input id="radio-answer-alot" class="number-of-books" type="radio" name="answer" value="alot">
+                10 - 30
+              </label>
+              <label class="find-about">
+                <input id="radio-answer-many" class="number-of-books" type="radio" name="answer" value="many">
+                30 - 50
+              </label>
+              <label class="find-about" >
+                <input id="radio-answer-addict" type="radio" name="answer" value="addict">
+                50 - 100
+              </label>
+            </div>
+            <br />
+            <p><textarea id="form-message" row="5" col="50" placeholder="Your message"></textarea></p>
+            <input id="send-form-info-button" type="submit" onclick="formValidation(); return false;" value="send" />
+          </fieldset>
+        </form>
+
+      </div>
+
+      <!-- FOOTER SECTION -->
+
+      <div class="footer">
+        <div class="credits-container">
+          <p>Cover image credit: Hitoshi Suzuki/Unsplash</p>
+          Icons made by <a class="credits-link" href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a class="credits-link" href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a class="credits-link" href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        </div>
+        <div class="useful-links-container">
+          <div class="footer-links-1-container">
+            <h3>Spre oriunde</h3>
+            <ul class="footer-links-1">
+              <li class="useful-links"><a class="footer-links" href="#">Unde se duc cartile </a></li>
+              <li class="useful-links"><a class="footer-links" href="#">Carti si Harti</a></li>
+              <li class="useful-links"><a class="footer-links" href="#">Cine citeste </a></li>
+              <li class="useful-links"><a class="footer-links" href="#">Iepuri cititori</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-2-container">
+            <h3>Cu de toate</h3>
+            <ul class="footer-links-2">
+              <li class="useful-links"><a class="footer-links" href="#">Trei carti intra intr-un bar</a></li>
+              <li class="useful-links"><a class="footer-links" href="#">Merge cartea</a></li>
+              <li class="useful-links"><a class="footer-links" href="#">Carti si oameni si soareci</a></li>
+              <li class="useful-links"><a class="footer-links" href="#">Avem carti</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="field-label">
+          <p class="label">&copy;2019 Ia și citește.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery.lettering.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
