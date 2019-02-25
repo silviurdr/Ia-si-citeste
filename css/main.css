@@ -271,7 +271,7 @@ li.useful-links {
 .home-page-image-container {
 	width: 100%;
 	height: 360px;
-	background-image: url("images/site-cover233.jpg");
+	background-image: url("../images/site-cover233.jpg");
 	background-size: cover;
 	position: relative;
 	margin-top: 13.2%;
@@ -554,7 +554,7 @@ a.side-review {
 
 .review-2 {
   margin-top: 20px;
-	background-image: url(images/shadow-of-the-wind.jpg);
+	background-image: url("../images/shadow-of-the-wind.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -621,7 +621,7 @@ a.middle-review {
 }
 
 .second-benefits-screen ul, .first-benefits-screen ul {
-	list-style-image: url(images/open-book.png);
+	list-style-image: url("../images/open-book.png");
 	line-height: 2em;
 }
 
@@ -712,31 +712,31 @@ a.middle-review {
 }
 
 .slide1 {
-	background-image: url(images/kid-book1.jpeg);
+	background-image: url("../images/kid-book1.jpeg");
 }
 
 .slide2 {
-	background-image: url(images/kid-book2.jpeg);
+	background-image: url("../images/kid-book2.jpeg");
 }
 
 .slide3 {
-	background-image: url(images/kid-book3.jpeg);
+	background-image: url("../images/kid-book3.jpeg");
 }
 
 .slide4 {
-	background-image: url(images/kid-book4.jpeg);
+	background-image: url("../images/kid-book4.jpeg");
 }
 
 .slide5 {
-	background-image: url(images/kid-book5.jpeg);
+	background-image: url("../images/kid-book5.jpeg");
 }
 
 .slide6 {
-	background-image: url(images/kid-book6.jpeg);
+	background-image: url("../images/kid-book6.jpeg");
 }
 
 .slide7 {
-	background-image: url(images/kid-book7.jpeg);
+	background-image: url("../images/kid-book7.jpeg");
 }
 
 .slide-content {
@@ -780,7 +780,7 @@ a.middle-review {
 
 .reviews-page-image-container {
 	height: 314px;
-	background-image: url("images/reviews-cover4.jpg");
+	background-image: url("../images/reviews-cover4.jpg");
 	background-size: cover;
 	border: 1px solid #bfbfbf;
 	position: relative;
@@ -895,7 +895,7 @@ p.text-below-image {
 .places-page-image-container {
 	width: 100%;
 	height: 314px;
-	background-image: url("images/places-cover24.jpg");
+	background-image: url("../images/places-cover24.jpg");
 	background-size: cover;
 	border: 1px solid #bfbfbf;
 	position: relative;
@@ -945,7 +945,7 @@ p.text-below-image {
 .contact-page-image-container {
 	width: 100%;
 	height: 387px;
-	background-image: url("images/contact-cover.jpg");
+	background-image: url("../images/contact-cover.jpg");
 	background-size: cover;
 	position: relative;
 	margin-top: 13.2%;
@@ -993,7 +993,7 @@ p.text-below-image {
 .contact-form {
   width: 80%;
 	margin: 0 auto;
-  background-image:url("images/ricepaper_v3.png");
+  background-image:url("../images/ricepaper_v3.png");
 	margin-bottom: 3em;
 	font-family: Helvetica, sans-serif;
   font-weight: bold;
@@ -1074,7 +1074,7 @@ p.text-below-image {
 .todos-page-image-container {
 	width: 100%;
 	height: 387px;
-	background-image: url("images/todos-cover7.jpg");
+	background-image: url("../images/todos-cover7.jpg");
 	background-size: cover;
 	position: relative;
 	margin-top: 13.2%;
@@ -1248,7 +1248,7 @@ p.text-below-image {
 }
 
 .travel-article-image-container1 {
-	background-image: url(images/hay-on-wye.jpg);
+	background-image: url("../images/hay-on-wye.jpg");
 	background-size: cover;
 	height: 236px;
 	object-fit: cover;
@@ -1256,7 +1256,7 @@ p.text-below-image {
 }
 
 .travel-article-image-container2 {
-	background-image: url(images/bed-and-book-tokyo.jpg);
+	background-image: url("../images/bed-and-book-tokyo.jpg");
 	background-size: cover;
 	height: 250px;
 	object-fit: cover;
@@ -1264,7 +1264,7 @@ p.text-below-image {
 }
 
 .travel-article-image-container3 {
-	background-image: url(images/lib-aqua-alta.jpg);
+	background-image: url("../images/lib-aqua-alta.jpg");
 	background-size: cover;
 	height: 250px;
 	object-fit: cover;
@@ -1272,7 +1272,7 @@ p.text-below-image {
 }
 
 .travel-article-image-container4 {
-	background-image: url(images/hemingway-days2.jpg);
+	background-image: url("../images/hemingway-days2.jpg");
 	background-size: cover;
 	height: 250px;
 	object-fit: cover;
@@ -1331,7 +1331,7 @@ p.text-below-image {
 	}
 
 	.book-spine-seperator {
-		background-image: url("images/book-spine.jpg");
+		background-image: url("../images/book-spine.jpg");
 		background-repeat: no-repeat;
 		display: inline-block;
 		width: 48px;

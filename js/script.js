@@ -33,7 +33,7 @@ $(document).ready(function() {
 // Randomly selecting a book recommendations
 
 
-const imagesArray = ["images/IvanDen.jpg", "images/UnbBei.jpg", "images/DalCat.jpg", "images/LovCho.jpg", "images/AliWon.jpg"];
+const imagesArray = ["../images/IvanDen.jpg", "../images/UnbBei.jpg", "../images/DalCat.jpg", "../images/LovCho.jpg", "../images/AliWon.jpg"];
 
 const articlesArray = [
   "https://www.goodreads.com/book/show/17125.One_Day_in_the_Life_of_Ivan_Denisovich?ac=1&from_search=true",
@@ -148,57 +148,57 @@ function initMap() {
   var markers = [
     {
       coords:{lat: 45.645726, lng: 25.587183},
-      iconImage:'images/library.png',
-      content: '<div class="infoMarkers"><h3 class="marker-title">Public Library</h3><img class="marker-image" src="images/bjbv.jpg"><p class="marker-features"> rent books &#124; reading room &#124; events </p><p class="marker-logo">BJBV - Central Location</p></div>',
+      iconImage:'../images/library.png',
+      content: '<div class="infoMarkers"><h3 class="marker-title">Public Library</h3><img class="marker-image" src="../images/bjbv.jpg"><p class="marker-features"> rent books &#124; reading room &#124; events </p><p class="marker-logo">BJBV - Central Location</p></div>',
       link: 'http://www.bjbv.ro/default.php'
     },
     {
       coords:{lat: 45.657256, lng: 25.598591},
-      iconImage:'images/library.png',
-      content: '<div class="infoMarkers"><h3 class="marker-title">Public Library</h3><img class="marker-image" src="images/bjbv2.jpg"><p class="marker-features"> rent books &#124; reading room &#124; events</p><p class="marker-logo">BJBV - Grivitei Location</p></div>',
+      iconImage:'../images/library.png',
+      content: '<div class="infoMarkers"><h3 class="marker-title">Public Library</h3><img class="marker-image" src="../images/bjbv2.jpg"><p class="marker-features"> rent books &#124; reading room &#124; events</p><p class="marker-logo">BJBV - Grivitei Location</p></div>',
       link: 'http://www.bjbv.ro/default.php'
     },
     {
       coords:{lat: 45.640763, lng: 25.589799},
-      iconImage:'images/coffee.png',
-      content: '<div class="infoMarkers"><h3 class="marker-title">Cafeteca</h3><img class="marker-image" src="images/cafeteca.jpg"><p class="marker-features"> good coffee &#124; relaxing music &#124; view </p><p class="marker-logo">Café - Grigoras Dinicu</p></div>',
+      iconImage:'../images/coffee.png',
+      content: '<div class="infoMarkers"><h3 class="marker-title">Cafeteca</h3><img class="marker-image" src="../images/cafeteca.jpg"><p class="marker-features"> good coffee &#124; relaxing music &#124; view </p><p class="marker-logo">Café - Grigoras Dinicu</p></div>',
       link: 'https://bit.ly/2t86cek'
     },
     {
       coords: {lat: 45.643200, lng: 25.596160},
-      iconImage: 'images/bistro.png',
-      content: '<div class="infoMarkers"><h3 class="marker-title">Simone</h3><img class="marker-image" src="images/simone.jpg"><p class="marker-features"> delicious food &#124; electro-swing music &#124; vegetarian </p><p class="marker-logo">Bistro - Politehnicii</p></div>',
+      iconImage: '../images/bistro.png',
+      content: '<div class="infoMarkers"><h3 class="marker-title">Simone</h3><img class="marker-image" src="../images/simone.jpg"><p class="marker-features"> delicious food &#124; electro-swing music &#124; vegetarian </p><p class="marker-logo">Bistro - Politehnicii</p></div>',
       link: 'https://bit.ly/2I4lKpr'
     },
     {
       coords: {lat: 45.641811, lng: 25.590782},
-      iconImage: 'images/events.png',
-      content: '<div class="infoMarkers"><h3 class="marker-title">Tipografia</h3><img class="marker-image" src="images/tipografia.jpg"><p class="marker-features"> literary events &#124; alternative rock &#124; local food </p><p class="marker-logo">Pub - Diaconu Coresi</p></div>',
+      iconImage: '../images/events.png',
+      content: '<div class="infoMarkers"><h3 class="marker-title">Tipografia</h3><img class="marker-image" src="../images/tipografia.jpg"><p class="marker-features"> literary events &#124; alternative rock &#124; local food </p><p class="marker-logo">Pub - Diaconu Coresi</p></div>',
       link: 'http://tipo-grafia.ro/'
     },
     {
       coords: {lat: 45.658727, lng: 25.589116},
-      iconImage: 'images/events.png',
-      content: '<div class="infoMarkers"><h3 class="marker-title">Visssual</h3><img class="marker-image" src="images/visssual.jpg"><p class="marker-features"> literary events &#124; local artists &#124; cultural center </p><p class="marker-logo">Art Hub - Fabricii</p></div>',
+      iconImage: '../images/events.png',
+      content: '<div class="infoMarkers"><h3 class="marker-title">Visssual</h3><img class="marker-image" src="../images/visssual.jpg"><p class="marker-features"> literary events &#124; local artists &#124; cultural center </p><p class="marker-logo">Art Hub - Fabricii</p></div>',
       link: 'https://ro-ro.facebook.com/visssualreal/'
 
     },
     {
       coords: {lat: 45.643103, lng: 25.588685},
-      iconImage: 'images/bookstore.png',
-      content: '<div class="infoMarkers"><h3 class="marker-title">Okian</h3><img class="marker-image" src="images/okian.jpg"><p class="marker-features"> bookstore &#124; literary events &#124; brasov culture</p><p class="marker-logo">Bookstore - Muresenilor</p></div>',
+      iconImage: '../images/bookstore.png',
+      content: '<div class="infoMarkers"><h3 class="marker-title">Okian</h3><img class="marker-image" src="../images/okian.jpg"><p class="marker-features"> bookstore &#124; literary events &#124; brasov culture</p><p class="marker-logo">Bookstore - Muresenilor</p></div>',
       link: 'https://www.okian.ro/'
     },
     {
       coords: {lat: 45.631810, lng: 25.639930},
-      iconImage: 'images/bookstore.png',
-      content: '<div class="infoMarkers"><h3 class="marker-title">Carturesti</h3><img class="marker-image" src="images/carturesti.jpg"><p class="marker-features"> bookstore &#124; gifts &#124; coffee and tea </p><p class="marker-logo">Bookstore - Carrefour</p></div>',
+      iconImage: '../images/bookstore.png',
+      content: '<div class="infoMarkers"><h3 class="marker-title">Carturesti</h3><img class="marker-image" src="../images/carturesti.jpg"><p class="marker-features"> bookstore &#124; gifts &#124; coffee and tea </p><p class="marker-logo">Bookstore - Carrefour</p></div>',
       link: 'https://bit.ly/2DilQbG'
     },
     {
       coords: {lat: 45.672678, lng: 25.615021},
-      iconImage: 'images/bookstore.png',
-      content: '<div class="infoMarkers"><h3 class="marker-title">BookCity</h3><img class="marker-image" src="images/bookcity.jpg"><p class="marker-features"> bookstore &#124; gifts &#124; coffee and tea </p><p class="marker-logo">Bookstore - Coresi</p></div>',
+      iconImage: '../images/bookstore.png',
+      content: '<div class="infoMarkers"><h3 class="marker-title">BookCity</h3><img class="marker-image" src="../images/bookcity.jpg"><p class="marker-features"> bookstore &#124; gifts &#124; coffee and tea </p><p class="marker-logo">Bookstore - Coresi</p></div>',
       link: 'https://www.bookcity.ro/'
     }
   ]
