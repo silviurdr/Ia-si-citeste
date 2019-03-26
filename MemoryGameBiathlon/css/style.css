@@ -193,6 +193,7 @@ h3 {
 
   html {
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
   #main-content {
