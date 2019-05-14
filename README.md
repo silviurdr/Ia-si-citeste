@@ -29,10 +29,12 @@ Besides the pages format, I wanted to add to the design of the site some header 
 
 I didn't have a strict plan for the subject of the pages, whenever I got a new idea, I've just added the page to my website. Adding a new page was among my favorite moments, because I knew that I had to create another header image, relevant for the respective page.
 
+
+
 ## Several of website features
 
-* Full screen immage slider
-* Google Maps JavaScript API
+* Full screen image slider
+* Google Maps JavaScript API with book-friendly places from Brasov
 * Contact form
-* Random book recommandation in the site header
+* Hidden random book recommandation in the site header
 
