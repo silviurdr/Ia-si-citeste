@@ -29,6 +29,7 @@ Besides the pages format, I wanted to add to the design of the site some header 
 
 I didn't have a strict plan for the subject of the pages, whenever I got a new idea, I've just added the page to my website. Adding a new page was among my favorite moments, because I knew that I had to create another header image, relevant for the respective page.
 
+The format of the contact page is an approach that I like a lot.
 
 
 ## Several of website features
@@ -37,4 +38,5 @@ I didn't have a strict plan for the subject of the pages, whenever I got a new i
 * Google Maps JavaScript API with book-friendly places from Brasov
 * Contact form
 * Hidden random book recommandation in the site header
+* Tip on the home page adapted to the moment of the day
 
