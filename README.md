@@ -9,5 +9,5 @@ See the website here: [Ia Și Citește](https://silviurdr.github.io/index.html)
 
 Since reading is my favourite hobby, it was easy to chose the subject for my first project. Reading helped me evolved in many ways and I like to promote this activity whenever I have an opportunity.
 
-## How I built this site
+## How I built this website
 
