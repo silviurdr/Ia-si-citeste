@@ -37,6 +37,6 @@ The format of the contact page was an idea that I liked a lot.
 * Full screen image slider
 * Google Maps JavaScript API with book-friendly places from Brasov
 * Contact form
-* Hidden random book recommandation in the site header
+* Hidden random book recommendation in the site header
 * Tip on the home page, adapted to the moment of the day
 
