@@ -1,4 +1,6 @@
-# Ia Și Citește
+# Ia Și Citește! :books:
 
 
-Since reading is my main hobby, it was easy an easy task to chose the subject for my first project for the porfolio.
+ Ia Și Citește is the first project from my portfolio, built at beginning of 2019, using my coding knowledge aquired from books and online resources.
+ 
+ ## Motivation
