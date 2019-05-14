@@ -1,7 +1,7 @@
 # Ia Și Citește! :books:
 
 
- Ia Și Citește is the first project from my portfolio, built at beginning of 2019, using the coding knowledge I've aquired from books and online resources.
+ Ia Și Citește is the first project from my portfolio, built at the beginning of 2019, using the coding knowledge I've aquired from books and online resources.
  
 See the website here: [Ia Și Citește](https://silviurdr.github.io/index.html)
  
@@ -38,5 +38,5 @@ The format of the contact page was an idea that I liked a lot.
 * Google Maps JavaScript API with book-friendly places from Brasov
 * Contact form
 * Hidden random book recommandation in the site header
-* Tip on the home page adapted to the moment of the day
+* Tip on the home page, adapted to the moment of the day
 
