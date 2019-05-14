@@ -3,7 +3,7 @@
 
  Ia Și Citește is the first project from my portfolio, built at beginning of 2019, using my coding knowledge aquired from books and online resources.
  
-Check out the website here: [Ia Și Citește](https://silviurdr.github.io/index.html)
+See the website here: [Ia Și Citește](https://silviurdr.github.io/index.html)
  
  ## Motivation
 
