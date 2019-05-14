@@ -31,8 +31,6 @@ I didn't have a strict plan for the subject of the pages, whenever I got a new i
 
 The format of the contact page was an idea that I liked a lot.
 
-Also, the logo is something that I find very relevant for the website: ![logo](./images/logou17.jpg)
-
 
 ## Several of website features
 
