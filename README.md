@@ -23,3 +23,6 @@ Technologies used:
 * jQuery
 * Photoshop
 
+## The design of Ia Și Citește
+
+I didn't have a strict plan for the subject of the pages, whenever I got a new idea, I've just added the page to my website. Adding a new page was among my favorite moments, because I knew that I had to create another header image, relevant for the respective pages.
